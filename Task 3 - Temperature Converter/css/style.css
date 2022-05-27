@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 35rem;
+    height: 15rem;
+    background-color: #b8b8b8;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+    text-align: center;
+}
+.contain {
+    margin: 5rem;
+}
+
+#celsius {
+    margin-left: 2rem;
+    padding: 0.1rem;
+    border: 2px solid #203239;
+}
+
+#fahrenheit {
+    margin-left: 0.5rem;
+    padding: 0.1rem;
+    border: 2px solid #203239;
+}
+
+#fahr {
+    margin-right: 0.2rem;
+}
+
+.btn {
+    padding: 0.3rem;
+    background-color: #5463FF;
+    color: #FFF89A;
+}
+
+.btn1 {
+    margin-left: 0.6rem;
+}
